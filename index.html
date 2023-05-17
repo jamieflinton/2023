@@ -9,14 +9,53 @@
   </head>
   <body>
     <!-- <model-viewer> HTML element -->
-    <model-viewer src="epu4.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" camera-orbit="481.4deg 81.28deg 6.017m" field-of-view="22.79deg" min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 94deg auto">
-
+    <model-viewer src="epu4.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" camera-orbit="481.4deg 94.28deg 6.017m" field-of-view="22.79deg" min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 94deg auto">
+      <div class="progress-bar" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button">
+          View in your space
+      </button>
       <div id="ar-prompt">
           <img src="ar_hand_prompt.png">
       </div>
     </model-viewer>  
-        <script src="script.js"></script>
+    <script src="script.js"></script>
     <!-- Loads <model-viewer> for browsers: -->
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+      <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+
+      
+
+        <div id="waves">
+    
+            <img src="wave.svg" alt="Kiwi standing on oval">
+        
+        </div>
+    
+        <ul>
+            <li class="links" id="link1">
+                Jamie Flinton's
+            </li>
+    
+    
+    
+    
+        </ul>
+    
+        <div id="header">
+        <p3>MKII</p3><br><p4>SCIROCCO</p4>
+        </div>
+    
+        <div id="block">
+        </div>
+    
+    
+        <canvas class="canvas" width="100%" height="100%" style="position: fixed;"></canvas>
+    
+    
+    
+        
+   
+
   </body>
 </html>
