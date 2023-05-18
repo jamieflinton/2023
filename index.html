@@ -9,13 +9,13 @@
   </head>
   <body>
     <!-- <model-viewer> HTML element -->
-    <model-viewer src="epu4.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" camera-orbit="180deg 0deg 6.017m" field-of-view="22.79deg" min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 94deg auto">
+    <model-viewer src="epu4.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" camera-orbit="180deg 0deg 6.017m" field-of-view="22.79deg" min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 94deg auto" environment-image="music_hall_01_1k.hdr">
       <div class="progress-bar" slot="progress-bar">
           <div class="update-bar"></div>
       </div>
-      <button slot="ar-button" id="ar-button">
+      /*<button slot="ar-button" id="ar-button">
           View in your space
-      </button>
+      </button>*/
       <div id="ar-prompt">
           <img src="ar_hand_prompt.png">
       </div>
