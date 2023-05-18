@@ -118,7 +118,9 @@ model-viewer > #ar-prompt > img {
   z-index: 5;
   margin-top: 4vw;
   margin-left: 4vw;
-  line-height: 3.7vw;
+  line-height: 4.5vw;
+  font-family: futura;
+  font-weight: bold;
 }
 
 
@@ -132,24 +134,26 @@ model-viewer > #ar-prompt > img {
 
 #block
 {
-  height: 3.52vw;
-  position: fixed;
-  margin-left: 28.99vw;
-  width: 67vw;
-  margin-top: 3.92vw;
-  background-color: #ffc400;
+  height: 90%;
+  position: inherit;
+  margin: auto;
+  width: 95%;
+  margin-top: 2.92vw;
+  outline-color: #ffc400;
+  outline-style: solid;
+  outline-width: thick;
 }
 
 .links
 {
-  color: rgb(0, 0, 0);
-  font-family: Futura;
-  font-size: 0.8vw;
-  position: fixed;
-  z-index: 100;
-  margin-left: 2.3vw;
-  margin-top: 2.6vw;
-  list-style: none;
+  color: rgb(255, 255, 255);
+    font-family: Futura;
+    font-size: 0.8vw;
+    position: fixed;
+    z-index: 100;
+    margin-left: 4.3vw;
+    margin-top: 2.9vw;
+    list-style: none;
 }
 
 #link2
@@ -182,12 +186,4 @@ model-viewer > #ar-prompt > img {
 {
   margin-left: 1.2vw;
   width: 12vw;
-}
-
-p4 {
-  font-family: adina;
-}
-
-p3 {
-  font-family: adinaregular;
 }
