@@ -187,3 +187,47 @@ model-viewer > #ar-prompt > img {
   margin-left: 1.2vw;
   width: 12vw;
 }
+
+#specs
+{
+  color: #ffc400;
+  position: relative;
+  z-index: 15;
+  line-height: 1;
+  font-family: futura;
+  list-style: none;
+  display: inline-block;
+  width: 155px;
+  
+}
+
+#spe{
+  font-family: odeoncondensedregular;
+  font-size: 5vh;
+}
+
+#specs2
+{
+  color: #ffc400;
+  position: relative;
+  line-height: 1;
+  font-family: futura;
+  list-style: none;
+  display: inline-block;
+  width: 177px;
+}
+
+#spe2{
+  font-family: odeoncondensedregular;
+  font-size: 5vh;
+}
+#specblock{
+  position: fixed;
+  height: 40vh;
+  bottom: 0;
+  z-index: 10;
+}
+#tag{
+  width: 75px;
+  margin-left: auto;
+}
